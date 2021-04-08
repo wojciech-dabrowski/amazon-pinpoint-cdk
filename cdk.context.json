@@ -1,0 +1,9 @@
+{
+  "@aws-cdk/core:enableStackNameDuplicates": "true",
+  "aws-cdk:enableDiffNoFail": "true",
+  "@aws-cdk/core:stackRelativeExports": "true",
+  "@aws-cdk/core:newStyleStackSynthesis": "true",
+  "senderEmailAddress": "<SENDER_EMAIL_ADDRESS>",
+  "sesIdentityArn": "arn:aws:ses:<REGION>:<ACCOUNT_ID>:identity/<SENDER_EMAIL_ADDRESS>",
+  "smsSenderId": "Sender"
+}

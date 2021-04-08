@@ -1,0 +1,21 @@
+{
+  "name": "amazon-pinpoint",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.97.0",
+    "@types/node": "^10.17.27",
+    "aws-cdk": "1.97.0",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.97.0",
+    "@aws-cdk/aws-pinpoint": "1.97.0",
+    "@aws-cdk/aws-pinpointemail": "1.97.0",
+    "source-map-support": "^0.5.16"
+  }
+}
